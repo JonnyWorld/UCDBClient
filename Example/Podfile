@@ -2,6 +2,9 @@ use_frameworks!
 
 platform :ios, '8.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:baozhoua/privatepod.git'
+
 target 'UCDBClient_Example' do
   pod 'UCDBClient', :path => '../'
 

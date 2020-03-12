@@ -1,0 +1,37 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - LKDBHelper (2.5.2):
+    - LKDBHelper/standard (= 2.5.2)
+  - LKDBHelper/standard (2.5.2):
+    - FMDB
+  - UCDBClient (0.0.1):
+    - LKDBHelper
+    - YYTools
+  - YYTools (0.0.1)
+
+DEPENDENCIES:
+  - UCDBClient (from `../`)
+  - YYTools
+
+SPEC REPOS:
+  "git@github.com:baozhoua/privatepod.git":
+    - YYTools
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+    - LKDBHelper
+
+EXTERNAL SOURCES:
+  UCDBClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LKDBHelper: 9afb4d8f314e284d698d456422b3828e691f40b4
+  UCDBClient: 45af5bc7c13fbb1a723e4fa2ab66216bed4496b4
+  YYTools: 2cb9cab78b2835c2281c88878dbde5694eb001d5
+
+PODFILE CHECKSUM: f609f8646ccad26f11e50590219d96ae2fc28f1f
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module UCDBClient {
+  umbrella header "UCDBClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
